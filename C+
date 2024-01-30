@@ -1,0 +1,110 @@
+# CompTIA Cloud+ Exam Study Guide
+
+## Week 1-2: Introduction to Cloud Computing
+
+### Day 1-2: Understanding Cloud Basics
+
+- **Cloud Computing Overview:**
+  - *Definition and key characteristics:*
+    - Cloud computing is the delivery of computing services over the internet. Key characteristics include on-demand self-service, broad network access, resource pooling, rapid elasticity, and measured service.
+  
+  - *Service models: IaaS, PaaS, SaaS:*
+    - **Infrastructure as a Service (IaaS):** Provides virtualized computing resources over the internet. Example: Amazon EC2.
+    - **Platform as a Service (PaaS):** Offers a platform allowing customers to develop, run, and manage applications without dealing with the complexity of infrastructure. Example: Heroku.
+    - **Software as a Service (SaaS):** Delivers software applications over the internet. Example: Google Workspace.
+
+  - *Deployment models: Public, Private, Hybrid, Multi-Cloud:*
+    - **Public Cloud:** Services are provided over the internet and available to the public (e.g., AWS, Azure).
+    - **Private Cloud:** Cloud infrastructure is operated exclusively for a single organization.
+    - **Hybrid Cloud:** Combination of public and private clouds, allowing data and applications to be shared between them.
+    - **Multi-Cloud:** Involves using services from multiple cloud providers.
+
+### Day 3-4: Cloud Service Providers (CSPs)
+
+- **Major Cloud Service Providers:**
+  - **Overview of AWS, Azure, Google Cloud:**
+    - *Amazon Web Services (AWS):* A comprehensive cloud platform offering a wide range of services, including computing power, storage, databases, machine learning, and more.
+    - *Microsoft Azure:* A cloud computing platform by Microsoft, providing services for computing, analytics, storage, and networking.
+    - *Google Cloud Platform (GCP):* Google's suite of cloud computing services, offering similar features to AWS and Azure.
+
+### Day 5-7: Virtualization Technologies
+
+- **Virtualization in Cloud:**
+  - *Introduction to virtualization:*
+    - Virtualization is the process of creating a virtual (rather than actual) version of something, such as an operating system, a server, a storage device, or a network resource.
+  
+  - *Hypervisors (Type 1 and Type 2) and containers:*
+    - **Hypervisors:** Software that creates and runs virtual machines. Example: VMware, Hyper-V.
+    - **Containers:** Lightweight, portable, and self-sufficient units that can run applications and their dependencies. Example: Docker.
+
+  - *Benefits of virtualization in cloud environments:*
+    - Efficient resource utilization, cost savings, improved scalability, and flexibility.
+
+## Week 3-4: Cloud Architecture and Design
+
+### Day 8-10: Cloud Components and Services
+
+- **Networking in the Cloud:**
+  - *Virtual Private Cloud (VPC) concepts:*
+    - **VPC:** A virtual network dedicated to your AWS account. It provides logically isolated sections of the AWS Cloud where you can launch AWS resources.
+    - **Subnets, routing, and security groups:** Components within a VPC to control traffic, route data, and manage security.
+
+  - *Storage Options:*
+    - **Object storage (e.g., Amazon S3):** Scalable storage for the internet. Example: Storing and retrieving images, videos.
+    - **Block storage (e.g., Amazon EBS):** Persistent block-level storage volumes. Example: Attaching additional storage to EC2 instances.
+    - **File storage (e.g., Amazon EFS):** Fully managed file storage. Example: Shared file storage for multiple EC2 instances.
+
+  - *Databases in the Cloud:*
+    - **Database as a Service (DBaaS) offerings:** Fully managed database services. Example: Amazon RDS, Azure SQL Database.
+    - **Database scaling and high availability:** Scaling databases to handle increased load and ensuring continuous availability.
+
+### Day 11-12: Cloud Security
+
+- **Security Best Practices:**
+  - *Shared responsibility model:*
+    - **Shared Responsibility Model:** Defines the division of security responsibilities between the cloud provider and the customer.
+
+  - *Identity and Access Management (IAM):*
+    - **IAM:** AWS service for securely controlling access to resources. Example: Managing user permissions.
+
+  - *Network security in the cloud:*
+    - **Network security groups, firewalls:** Controlling inbound and outbound traffic to and from cloud resources.
+
+- **Data Encryption and Compliance:**
+  - *Encryption in transit and at rest:*
+    - **Encryption in transit:** Securing data as it travels over the network.
+    - **Encryption at rest:** Securing data when it's stored in databases or on storage devices.
+
+  - *Compliance standards (e.g., GDPR, HIPAA):*
+    - **GDPR (General Data Protection Regulation):** European regulation for data protection and privacy.
+    - **HIPAA (Health Insurance Portability and Accountability Act):** U.S. law for protecting sensitive patient health information.
+
+### Day 13-14: Cloud Governance and Compliance
+
+- **Governance frameworks:**
+  - *Governance frameworks:* Guidelines for organizations to achieve their goals while managing risks.
+
+- **Compliance standards:**
+  - *Compliance standards (e.g., GDPR, HIPAA):*
+    - **GDPR (General Data Protection Regulation):** European regulation for data protection and privacy.
+    - **HIPAA (Health Insurance Portability and Accountability Act):** U.S. law for protecting sensitive patient health information.
+
+- **Risk management in cloud environments:**
+  - Identifying, assessing, and mitigating risks associated with cloud services.
+
+## Week 5-6: Cloud Operations and Management
+
+### Day 15-17: Cloud Management and Monitoring
+
+- **Cloud Management Tools and Platforms:**
+  - *Cloud management tools and platforms:*
+    - Management tools like AWS Management Console, Azure Portal, and Google Cloud Console.
+  
+  - *Monitoring and Logging in the Cloud:*
+    - **Monitoring:** Observing and tracking the performance of cloud resources.
+    - **Logging:** Recording events and activities for analysis and troubleshooting.
+
+  - *Performance Optimization:*
+    - Optimizing cloud resources for efficiency and cost savings.
+
+### Day 18-20: Troubleshooting in the Cloud
